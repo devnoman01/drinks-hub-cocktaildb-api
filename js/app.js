@@ -16,8 +16,11 @@ const showDetails = (drinkId) => {
     .then(data => displayModal(data.drinks[0]));
 }
 
+
 const displayModal = (info) => {
+  
     const parentDiv = document.getElementById('display-modal');
+    parentDiv.textContent = '';
     const div = document.createElement('div');
     div.classList.add("modal-dialog");
     div.innerHTML = `
@@ -59,7 +62,7 @@ const displayDrinks = (drinks) => {
                     <br>
                     <div class="d-flex justify-content-between align-items-center">
                         <button onclick="showDetails(${drink.idDrink})" data-toggle="modal" data-target="#myModal" class="mt-3 btn btn-warning">Details</button>
-                        <h5 class="mt-3">${Math.round(Math.random()*1000)}</h5>
+                        <h5 class="mt-3">$${Math.round(Math.random()*(99-20)+20)}</h5>
                     </div>
                     
                 </div>

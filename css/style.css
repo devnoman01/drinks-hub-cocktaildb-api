@@ -21,8 +21,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .logo-title{
     font-family: 'Courgette', cursive;
 }
@@ -43,6 +41,10 @@ body{
 
 footer{
     background-color: #E4EFE7;
+}
+
+body.modal-open {
+    overflow: hidden;
 }
 
 /* dark green color #064420 */
