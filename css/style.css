@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body{
@@ -22,7 +23,27 @@ body{
 
 
 
+.logo-title{
+    font-family: 'Courgette', cursive;
+}
 
+.search-section{
+    background-color: #E4EFE7;
+}
+.input-part{
+    width: 30%;
+}
+
+.btn:hover{
+    background-color: #E4EFE7;
+    color: #064420;
+    border: 1px solid #064420;
+}
+
+
+footer{
+    background-color: #E4EFE7;
+}
 
 /* dark green color #064420 */
 /* light brown bg #FAF1E6 */
