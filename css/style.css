@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&display=swap');
+/* font-family: 'Lobster Two', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #FDFAF6;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* dark green color #064420 */
+/* light brown bg #FAF1E6 */
+/* light bluegreen bg #E4EFE7 */
